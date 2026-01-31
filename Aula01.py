@@ -60,6 +60,73 @@ a = 10
 b = 2
 print(a + b)
 
+# ➖ Subtração (-) Subtrai um valor do outro.
+
+a = 10
+b = 5
+resultado = a - b
+print(resultado)  # 5
+
+# ✖️ Multiplicação (*) Multiplica valores.
+
+a = 10
+b = 5
+resultado = a * b
+print(resultado)  # 50
+
+# ➗ Divisão (/) Sempre retorna float (número com decimal).
+
+a = 10
+b = 4
+resultado = a / b
+print(resultado)  # 2.5
+
+# ➗ Divisão inteira (//) Retorna só a parte inteira da divisão.
+
+a = 10
+b = 4
+resultado = a // b
+print(resultado)  # 2
+
+# 🔺 Exponenciação (**) Um número elevado a outro.
+
+a = 2
+b = 3
+resultado = a ** b
+print(resultado)  # 8
+
+# 🔁 Módulo / Resto (%) Retorna o resto da divisão.
+
+a = 10
+b = 3
+resultado = a % b
+print(resultado)  # 1
+
+# 🧠 Exemplo juntando tudo
+
+a = 7
+b = 2
+
+print(a + b)   # 9
+print(a - b)   # 5
+print(a * b)   # 14
+print(a / b)   # 3.5
+print(a // b)  # 3
+print(a ** b)  # 49
+print(a % b)   # 1
+
+#✅ Ordem de precedência
+"""
+1️⃣ Parênteses  ( ) 👉 Sempre vêm primeiro
+
+2️⃣ Exponenciação **
+
+3️⃣ Multiplicação e divisão *   /   //   % 👉 Todos têm a mesma prioridade
+
+4️⃣ Adição e subtração +   -
+
+
+
 # 📦 Variáveis em Python
 """
 Variável é um espaço na memória para guardar um valor.
